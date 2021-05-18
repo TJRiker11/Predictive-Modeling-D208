@@ -14315,7 +14315,7 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <blockquote><ol>
-<li>Logistic regression will allow us to analyze each different type of service variable and find out the services and variables that correlate with tenure. An organization would then be able to use this information to try and decrease overall customer churn. Logistic regression also works very well with categorical non-continuous variables, which Churn is. This will allow us to get a better understanding of why and when customers churn.</li>
+<li>Logistic regression will allow us to analyze each different type of service variable and find out the services and variables that correlate with churn. An organization would then be able to use this information to try and decrease overall customer churn. Logistic regression also works very well with categorical non-continuous variables, which Churn is. This will allow us to get a better understanding of why and when customers churn.</li>
 </ol>
 </blockquote>
 
@@ -15333,7 +15333,7 @@ dtype: bool</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&lt;seaborn.axisgrid.FacetGrid at 0x2134011dbe0&gt;</pre>
+<pre>&lt;seaborn.axisgrid.FacetGrid at 0x2b32ab57910&gt;</pre>
 </div>
 
 </div>
@@ -15387,7 +15387,7 @@ dtype: bool</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&lt;seaborn.axisgrid.FacetGrid at 0x213400b54c0&gt;</pre>
+<pre>&lt;seaborn.axisgrid.FacetGrid at 0x2b32ac1fd60&gt;</pre>
 </div>
 
 </div>
@@ -15441,7 +15441,7 @@ dtype: bool</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&lt;seaborn.axisgrid.FacetGrid at 0x213401e9c10&gt;</pre>
+<pre>&lt;seaborn.axisgrid.FacetGrid at 0x2b32acaf8e0&gt;</pre>
 </div>
 
 </div>
@@ -16172,7 +16172,7 @@ dtype: bool</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<blockquote><p>We are finding the values that correlate with Churn_Yes. These values are Contract_Month-to-month, Tenure, StreamingTV_Yes, StreamingMovies_Yes, MonthlyCharge, Bandwidth_GB_Year.</p>
+<blockquote><p>We are finding the values that correlate with Churn_Yes. To do this, we find the vertical Tenure column, and then we find all the other itersecting rows that have a different coloration. This other coloration indicates that there is correlation between the two variables. Using this method, we find that the correlating variables are Contract_Month-to-month, Tenure, StreamingTV_Yes, StreamingMovies_Yes, MonthlyCharge, Bandwidth_GB_Year.</p>
 </blockquote>
 
 </div>
@@ -16378,7 +16378,8 @@ dtype: bool</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<blockquote><p>This reduced data set shows a prediction of 89%. This is about a 5% increase over the initial data set.</p>
+<blockquote><p>Model Comparison:
+This reduced data set shows a prediction of 89%. This is about a 5% increase over the initial data set. This shows that the reduced data set is more effective at predicting that the initial model is. With all other variables the same, the reduced data set is more effective and should be used over the initial model.</p>
 </blockquote>
 
 </div>
