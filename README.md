@@ -6,6 +6,7 @@ Part I: Research Question
 
 A.  Describe the purpose of this data analysis by doing the following:
 
+
 1.  Summarize one research question that is relevant to a real-world organizational situation captured in the data set you have selected and that you will answer using multiple regression.
 
 2.  Define the objectives or goals of the data analysis. Ensure that your objectives or goals are reasonable within the scope of the data dictionary and are represented in the available data.
